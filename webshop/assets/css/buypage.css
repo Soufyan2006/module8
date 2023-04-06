@@ -1,0 +1,44 @@
+@font-face{
+    font-family: "customfont";
+    src: url(assets/fonts/Bankzath.ttf);
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+    color: white;
+    margin: 0;
+    background-image: url(/Module8/webshop/assets/images/face.png);
+    background-repeat: repeat;
+    background-size: 150px;
+    color: black;
+    
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+#payment{
+    top: 5%;
+    left: 29%;
+    background-color: white;
+    position: absolute;
+    height: 90%;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+}
+#back img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 70px;
+    filter: brightness(1000%);
+    background-color: black;
+    border-radius: 10px;
+}
+#checkout{
+    border-radius: 10px;
+}
+#checkout img{
+    height: 100px;
+}

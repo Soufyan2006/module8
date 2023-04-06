@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/Module8/webshop/assets/css/buypage.css" />
+    <title>Yung Lean & Sad Boys Official Merchandise</title>
+    <link
+      rel="shortcut icon"
+      href="/Module8/webshop/assets/images/favicon2.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="back">
+        <a href="/Module8/webshop/html/page1.html">
+          <img src="/Module8/webshop/assets/images/back.webp" alt="back button" />
+        </a>
+      </div>
+      <div id="payment">
+      
+        <h1>PAYMENT DETAILS</h1>
+        <form action="thankyou.html" method="get">
+        <fieldset id="checkout">
+          <legend style="font-size: 150%">Express checkout</legend>
+          <br />
+          <input type="radio" name="payment"required />
+          <img src="/Module8/webshop/assets/images/ideal.png" alt="ideal" />
+          <input type="radio" name="payment" required/>
+          <img src="/Module8/webshop/assets/images/visa.png" alt="visa" />
+          <input type="radio" name="payment"required />
+          <img src="/Module8/webshop/assets/images/paypal.png" alt="paypal" />
+          <br />
+          <input type="text" placeholder="CARD NUMBER" size="70px" required/>
+        </fieldset>
+        <br />
+        <div style="font-size: 150%">
+          <br />
+          CONTACT INFORMATION
+          <br />
+          <input id="myText" type="text" placeholder="FIRST NAME" size="30px" name="firstname" required
+          />
+          <input type="text" name="lastname" placeholder="LAST NAME" size="30px" required />
+          <br />
+          <input type="text" placeholder="PHONE NUMBER" size="30px" />
+          <input type="text" placeholder="EMAIL ADRESS" size="30px" required />
+          <br />
+          SHIPPING
+          <br />
+          <select name=" CONTINENT " required>
+            <option value=" SELECT " selected=" selected ">
+              SELECT CONTINENT
+            </option>
+            <option value="EUROPE">EUROPE</option>
+            <option value=" AMERICA ">AMERICA</option>
+            <option value=" AZIA ">AZIA</option>
+            <option value=" AUSTRALIA ">AUSTRALIA</option>
+            <option value=" AFRICA ">AFRICA</option>
+          </select>
+          <input type="text" placeholder="ZIP / POSTAL CODE"required />
+          <br />
+          <input type="text" placeholder="ADRESS" required />
+          <input type="text" placeholder="ADRESS NUMBER" required />
+          <br />
+          <input type="text" placeholder="CITY" required />
+          <input type="text" placeholder="STATE / PROVINCE"required />
+          <br />
+          <input type="submit" />
+        </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      var url_string = window.location;
+    var url = new URL(url_string);
+    var name = url.searchParams.get("name");
+    console.log(name)
+
+    </script>
+  </body>
+</html>

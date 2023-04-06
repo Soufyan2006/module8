@@ -1,0 +1,235 @@
+@font-face{
+    font-family: "customfont";
+    src: url(/Module8/webshop/assets/fonts/Bankzath.ttf);
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+    color: white;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+#content{
+    background-image: url(/Module8/webshop/assets/images/face.png);
+    background-repeat: repeat;
+    background-size: 150px;
+    height: 6600px;
+}
+#header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin-left: 0%;
+    position: fixed;
+    z-index: 2;
+    font-family:customfont ;
+    background-image: url(/Module8/webshop/assets/images/face.png);
+    background-repeat: repeat;
+    background-size: 150px;
+    filter: invert();
+}   
+a{
+    color: white    ;
+    text-decoration: none;
+    font-size: 40px; 
+}    
+#logo img{
+    height: 100px;
+    background-color: black;
+} 
+#shirts{
+    position: fixed;
+    top: 20px;
+    right: 70%;
+    background-color: black;
+}
+#pants{
+    position: fixed;
+    top: 20px;
+    right: 50%;
+    background-color: black;
+}
+#shoes{
+    position: fixed;
+    top: 20px;
+    right: 30%;
+    background-color: black;
+}
+#footer{
+    height: 50px;
+    width: 100%;
+    background-color:black;
+    bottom: 0px;
+}
+#tshirt1 img{
+    position: absolute;
+    top: 250px ;
+    height: 250px;
+    z-index: 1;
+}
+#tshirt1text{
+    position: relative;
+    right: -600px;
+    top: 160px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}
+#tshirt2 img{
+    position: absolute;
+    top: 750px ;
+    height: 250px;
+    z-index: 1;
+}
+#tshirt2text{
+    position: relative;
+    right: -600px;
+    top: 260px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}
+#tshirt3 img{
+    position: absolute;
+    top: 1250px ;
+    left: -100px;
+    height: 430px;
+    z-index: 1;
+}
+#tshirt3text{
+    position: relative;
+    right: -600px;
+    top: 360px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}
+#tshirt4 img{
+    position: absolute;
+    top: 1850px ;
+    height: 300px;
+    z-index: 1;
+}
+#tshirt4text{
+    position: relative;
+    right: -600px;
+    top: 460px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}
+#tshirt5 img{
+    position: absolute;
+    top: 2350px ;
+    height: 300px;
+    z-index: 1;
+}
+#tshirt5text{
+    position: relative;
+    right: -600px;
+    top: 560px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}
+#tshirt6 img{
+    position: absolute;
+    top: 2950px ;
+    height: 500px;
+    z-index: 1;
+}
+#tshirt6text{
+    position: relative;
+    right: -600px;
+    top: 660px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}
+#tshirt7 img{
+    position: absolute;
+    top: 3450px ;
+    height: 500px;
+    z-index: 1;
+}
+#tshirt7text{
+    position: relative;
+    right: -600px;
+    top: 760px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}
+#tshirt8 img{
+    position: absolute;
+    top: 4050px ;
+    height: 500px;
+    z-index: 1;
+}
+#tshirt8text{
+    position: relative;
+    right: -600px;
+    top: 860px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}
+#tshirt9 img{
+    position: absolute;
+    top: 4550px ;
+    height: 500px;
+    z-index: 1;
+}
+#tshirt9text{
+    position: relative;
+    right: -600px;
+    top: 960px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}
+#tshirt10 img{
+    position: absolute;
+    top: 4950px ;
+    height: 500px;
+    z-index: 1;
+}
+#tshirt10text{
+    position: relative;
+    right: -600px;
+    top: 1060px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}
+#tshirt11 img{
+    position: absolute;
+    top: 5650px ;
+    height: 500px;
+    z-index: 1;
+}
+#tshirt11text{
+    position: relative;
+    right: -600px;
+    top: 1160px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}
+#tshirt12 img{
+    position: absolute;
+    top: 6050px ;
+    height: 500px;
+    z-index: 1;
+}
+#tshirt12text{
+    position: relative;
+    right: -600px;
+    top: 1260px;
+    height: 440px;
+    width: 900px;
+    background-color: black;
+}

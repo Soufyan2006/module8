@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/Module8/webshop/assets/css/thankyou.css" />
+    <title>Yung Lean & Sad Boys Official Merchandise</title>
+    	<link rel="shortcut icon" href="/Module8/webshop/assets/images/favicon2.png" type="image/png">
+  </head>
+  <body>
+    <script>
+        // van https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+        // sla alle gegevens van de 'query string' op in params
+        const params = new Proxy(new URLSearchParams(window.location.search), {
+            get: (searchParams, prop) => searchParams.get(prop),
+        });
+
+
+        // voorbeeld URL: "https://example.com/?voornaam=Koen" staat
+        let firstname  = params.firstname; // sla de waarde van "voornaam" op in een variabele
+        console.log(firstname);
+        let lastname  = params.lastname; // sla de waarde van "voornaam" op in een variabele
+        console.log(lastname);
+        console.log(name)
+        
+        </script>
+    <div id="container">
+      <div> Purchase was Succesfull </div>
+      <br>
+        <div id="firstname">(name) </div> 
+        <img src="https://media.istockphoto.com/id/1159946558/nl/vector/groen-vinkje-pictogram-tick-symbool-in-groene-kleur-vector-illustratie-bevestig-signe.jpg?s=170667a&w=0&k=20&c=gThdnxcHoMEOY3oGqGhCeTgC3oDH2Xj1mVCQue2qpmg=" alt="vinkje">
+       
+    </div>
+      <script>
+        document.getElementById("firstname").innerHTML = ("Hi ") + firstname + (" ") + lastname + (" thank you for buying ") + name;
+      </script>
+  </body>
+</html>
